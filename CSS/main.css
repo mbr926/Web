@@ -1,0 +1,59 @@
+aftermenu {
+    display: block;
+    background-color: #dddddd;
+    padding: 20px;
+    font-size: 30px;
+
+} 
+SVG{
+	align:center;
+	
+	
+}
+paragraph { 
+font-size: 20px;
+padding: 20px;
+
+} 
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #152456;
+	align: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #CEB97E;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #CEB97E;
+   color: #152456;
+   text-align: center;
+}
+table, th, td,aside {
+    border: 1px solid #CEB97E;;
+    color: #152456;
+}
