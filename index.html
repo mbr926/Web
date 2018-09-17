@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Abdulrahman Alhaidari</title>
+
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+<div align="center"><img src="images/pitt_logo.png" alt="Pitt logo" height="100" width="100"></div>
+
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Work_Experience.html">Work Experience</a></li>
+	  <li><a href="Research_interests.html">Research interests</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    
+    </ul>
+ 
+<aftermenu>WELCOME TO MY PAGE!</aftermenu>
+&nbsp;
+<p>My name is <b>Abulrahman</b>, and I am a graduate student at Pitt in the Master of Science in Information Science program. My goal is to pursue a Ph.D. program in infromation science, which will utilize
+the educational and technical skills that were developed for ongoing and future research projects.</p>
+<br>
+<p><b>Display Today's date:</b></p>
+<details id="time"><summary> Click Here to show time</summary></details>
+<script>
+var d = new Date();
+document.getElementById("time").innerHTML = d;
+</script>
+
+<svg width="100%" height="500">
+<g id="R1" transform="translate(300 250)"> 
+  <ellipse rx="120" ry="0" opacity=".3">
+  <animateTransform attributeName="transform" type="rotate" dur="7s" from="0" to="360" repeatCount="indefinite" />
+  <animate attributeName="cx" dur="8s" values="-20; 220; -20" repeatCount="indefinite" />
+  <animate attributeName="ry" dur="3s" values="10; 60; 10" repeatCount="indefinite" />
+  </ellipse>
+</g>
+<use xlink:href="#R1" transform="rotate(72 390 150)" />
+<use xlink:href="#R1" transform="rotate(144 390 150)" />
+<use xlink:href="#R1" transform="rotate(216 390 150)" />
+<use xlink:href="#R1" transform="rotate(288 390 150)" />
+</svg>
+
+
+
+<div class="footer">
+  <p>      <a href="http://www.pitt.edu/" target="_blank">www.pitt.edu</a>&nbsp;|&nbsp;
+                    <a href="https://my.pitt.edu/" target="_blank">www.my.pitt.edu</a>
+					
+
+					<img style="float:right; font-size:1.7em; font-weight:bold; vertical-align:small;" src="images/pitt_logo_footer.png" border="0" alt="University of Pittsburgh">
+					</p>
+					</div>
+</body>
+</html>
